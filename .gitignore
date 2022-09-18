@@ -1,0 +1,33 @@
+# # ignore everything in the root except the "wp-content" directory.
+# /*
+
+# !.gitignore
+# # ignore everything in the "wp-content" directory, except:
+# # mu-plugins, plugins, and themes directories
+
+# !/app
+
+
+# /app/*
+
+# !/app/wp-content
+
+
+/*
+
+!.gitignore
+
+
+
+!app/
+
+app/*
+
+
+
+!app/public
+
+app/public/*
+
+!wp-content
+
